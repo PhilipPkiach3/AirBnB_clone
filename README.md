@@ -6,7 +6,7 @@
     0x03 Installation
     0x04 Testing
     0x05 Usage
-    0x06 Authors
+    0x06 Author
 
 # 0x01 Introduction
 
@@ -204,18 +204,14 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 
 ## Authors
 <details>
-    <summary>Godswill Kalu</summary>
-    <summary>TIESSIA BOLA</summary>
+    <summary>Philip pkiach</summary>
     <ul>
-    <li><a href="https://www.github.com/lordwill">Github</a></li>
-    <li><a href="mailto:messagelordwill@gmail.com">e-mail</a></li>
-    <li><a href="https://www.github.com/Adamsbola">Github</a></li>
-    <li><a href="mailto:adamadu52@gmail.com">e-mail</a></li>
+    <li><a href="https://www.github.com/PhilipPkiach3">Github</a></li>
     </ul>
 </details>
 
 ## How to add Author file
-`Bash script for generating the list of authors in git repo`
+`Bash script for generating a list of author in git repo`
 
 #!/bin/sh
 
@@ -223,5 +219,5 @@ git shortlog -se
 | perl -spe 's/^\s+\d+\s+//'
 | sed -e '/^CommitSyncScript.*$/d' \
 
-    AUTHORS
+    AUTHOR
 
